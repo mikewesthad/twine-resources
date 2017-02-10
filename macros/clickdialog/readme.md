@@ -1,6 +1,6 @@
 # Macro Readme
 
-See the [live demos](//mikewesthad.com/twine-resources/macros/clickdialog/examples.html) in examples.html to see the macros in action. You can import examples.html into Twine and open it up. The demos are heavily commented.
+See the [live demos](//mikewesthad.com/twine-resources/macros/clickdialog/example.html) in example.html to see the macros in action. You can import example.html into Twine and open it up. The demos are heavily commented.
 
 ## clickdialog
 
@@ -10,7 +10,7 @@ Uses SugarCube's built-in dialog system to create a custom dialog box when a tar
 
 If a `<<whenclosed>>` tag is specified, the contents of that tag will be executed when the dialog box is closed. This is useful for setting variables upon closing a dialog box.
 
-This macro can be used with HTML maps to create a point-and-click style game (see examples.html).
+This macro can be used with HTML maps to create a point-and-click style game (see example.html).
 
 **Arguments:**
 
@@ -69,7 +69,7 @@ The contents of the `<<whenclosed>>` tag will be executed when the dialog box is
 
 Note: all buttons will automatically be set up to close the dialog box when clicked.
 
-This macro can be used with HTML maps to create a point-and-click style game (see examples.html).
+This macro can be used with HTML maps to create a point-and-click style game (see example.html).
 
 **Arguments:**
 

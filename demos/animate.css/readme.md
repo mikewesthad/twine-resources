@@ -1,10 +1,10 @@
 # Animate.css Readme
 
-See the [live demos](//mikewesthad.com/twine-resources/demos/animate.css/examples.html) in examples.html to see the library in action. You can import examples.html into Twine and open it up. The demos are heavily commented.
+See the [live demos](//mikewesthad.com/twine-resources/demos/animate.css/example.html) in example.html to see the library in action. You can import example.html into Twine and open it up. The demos are heavily commented.
 
 ## Animate.css
 
-This demo integrates [animate.css](https://daneden.github.io/animate.css/) into Twine. Animate.css works by providing a set of pre-built CSS animations that can be applied to elements simply by using a set of class names. See the passages and story stylesheets in examples.html for instructions and see animate.css's [readme](https://github.com/daneden/animate.css/blob/master/README.md) for additional documentation.
+This demo integrates [animate.css](https://daneden.github.io/animate.css/) into Twine. Animate.css works by providing a set of pre-built CSS animations that can be applied to elements simply by using a set of class names. See the passages and story stylesheets in example.html for instructions and see animate.css's [readme](https://github.com/daneden/animate.css/blob/master/README.md) for additional documentation.
 
 The demo also shows how to customize exisiting animations and how to import animations from [cssanimate](http://cssanimate.com/), a CSS animation generator.
 

@@ -2,7 +2,7 @@
 
 This demo shows how to use the HTML map tag to define clickable regions of an image inside of a twine. It also shows how to use the jquery.maphilight library to give the player visual feedback when they hover over areas of the image.
 
-See the [live demos](//mikewesthad.com/twine-resources/demos/html-maps/examples.html) in examples.html. You can import examples.html into Twine and open it up. The demos are heavily commented.
+See the [live demos](//mikewesthad.com/twine-resources/demos/html-maps/example.html) in example.html. You can import example.html into Twine and open it up. The demos are heavily commented.
 
 ## HTML Maps and Areas
 
@@ -44,7 +44,7 @@ We can easily integrate this library into a SugarCube twine:
 1. Copy the contents of [jquery.maphilight-modified.min.js](jquery.maphilight-modified.min.js) into your story JavaScript in Twine. This is a slightly modified version of maphilight that works in SugarCube.
 2. Add some JavaScript to PassageDone to activate maphilight. PassageDone is a special passage in SugarCube that runs after _every_ passage has finished displaying to the page. We need to use PassageDone here to tell maphilight which elements to highlight.
 
-Below are the examples from the PassageDone code in examples.html. Check out [hslpicker.com](http://hslpicker.com/) for picking HEX colors for styling. First up, setting the default style for all maps:
+Below are the examples from the PassageDone code in example.html. Check out [hslpicker.com](http://hslpicker.com/) for picking HEX colors for styling. First up, setting the default style for all maps:
 
 ```
 <<script>>
