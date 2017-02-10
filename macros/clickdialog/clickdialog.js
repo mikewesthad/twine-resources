@@ -3,16 +3,13 @@
 (function () {
 	var clickCount = 0;
 
+	// <<clickdialog selector dialogTitle (dialogClasses)>>
+	// <<whenclosed>>
+	// <</clickdialog>> 
 	Macro.add("clickdialog", {
 		skipArgs: false,
 		tags: ["whenclosed", "/clickdialog"],
 		handler: function() {
-			// <<clickdialog selector dialogTitle (dialogClasses)>>
-			// 
-			// <<whenclosed>>
-			// 
-			// <</clickdialog>> 
-			
 			var args = this.args;
 
 			// Do some simple error processing
@@ -62,15 +59,13 @@
 		}
 	});
 
+	// <<clickdialogchoice selector dialogTitle "$buttonResponse" (dialogClasses)>>
+	// <<whenclosed>>
+	// <</clickdialogchoice>>
 	Macro.add("clickdialogchoice", {
 		skipArgs: false,
 		tags: ["whenclosed", "/clickdialogchoice"],
 		handler: function() { 
-			// <<clickdialogchoice selector dialogTitle "$buttonResponse" (dialogClasses)>>
-			// 
-			// <<whenclosed>>
-			// 
-			// <</clickdialogchoice>>
 			var args = this.args;
 
 			// Do some simple error processing
