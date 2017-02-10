@@ -12,3 +12,4 @@ Contents:
 - css - examples of how to create different visual designs with CSS
     - bleached - Thomas Michael Edwards's bleached styling for SugarCube.
     - textbox ([link](css/textbox/), [live demo](//mikewesthad.com/twine-resources/css/textbox/example.html)) - creating a textbox around passages.
+    - backgrounds ([link](css/backgrounds/), [live demo](//mikewesthad.com/twine-resources/css/backgrounds/example.html)) - creating passages that have images and gradients as backgrounds.
