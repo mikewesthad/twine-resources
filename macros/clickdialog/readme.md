@@ -1,5 +1,7 @@
 # Macro Readme
 
+See the [live demos](//mikewesthad.com/TwineResources/macros/clickdialog/examples.html) in examples.html to see the macros in action. You can import examples.html into Twine and open it up. The demos are heavily commented.
+
 ## clickdialog
 
 `<<clickdialog selector dialogTitle (dialogClasses)>>`, `<<whenclosed>>`, `<</clickdialog>>`
@@ -7,6 +9,8 @@
 Uses SugarCube's built-in dialog system to create a custom dialog box when a target element is clicked. The contents of the macro will be directly put into the body of the dialog box body. SugarCube markdown and HTML elements are both valid as contents. 
 
 If a `<<whenclosed>>` tag is specified, the contents of that tag will be executed when the dialog box is closed. This is useful for setting variables upon closing a dialog box.
+
+This macro can be used with HTML maps to create a point-and-click style game (see examples.html).
 
 **Arguments:**
 
@@ -64,6 +68,8 @@ Similar to the clickdialog macro, but this one allows you to add buttons. Uses S
 The contents of the `<<whenclosed>>` tag will be executed when the dialog box is closed. The $buttonResponse variable will be updated to reflect which button was pressed. If the buttons have ids, then $buttonResponse will contain the id of the button that was clicked. If the buttons don't have ids, then the $buttonResponse will be a number. E.g. if there are three buttons and the first button is clicked, the response will be `1`. If no button was clicked, $buttonResponse will be `null`.
 
 Note: all buttons will automatically be set up to close the dialog box when clicked.
+
+This macro can be used with HTML maps to create a point-and-click style game (see examples.html).
 
 **Arguments:**
 
