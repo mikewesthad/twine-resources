@@ -1,6 +1,6 @@
 # Macro Readme
 
-See the [live demos](//mikewesthad.com/TwineResources/macros/clickdialog/examples.html) in examples.html to see the macros in action. You can import examples.html into Twine and open it up. The demos are heavily commented.
+See the [live demos](//mikewesthad.com/twine-resources/macros/clickdialog/examples.html) in examples.html to see the macros in action. You can import examples.html into Twine and open it up. The demos are heavily commented.
 
 ## clickdialog
 
