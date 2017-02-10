@@ -6,6 +6,7 @@ Contents:
 
 - demos - examples of various features and demos of how to integrate CSS & JS libraries into Twine 
     - animate.css ([link](demos/animate.css/), [live demo](//mikewesthad.com/twine-resources/demos/animate.css/examples.html)) - for adding a set of pre-built animations into Twine. 
+    - maps & defining clickable regions of an image ([link](demos/html-maps/), [live demo](//mikewesthad.com/twine-resources/demos/html-maps/examples.html)) - for creating an image that has different areas that can be clicked. Also, includes the maphilight plugin for highlighting those areas when the player hovers over them.
 - macros - custom macros for use with SugarCube 2
     - clickdialog and clickdialogchoice macros ([link](macros/clickdialog/), [live demo](//mikewesthad.com/twine-resources/macros/clickdialog/examples.html)) - for creating dialog boxes
 - css - stylesheets for use with SugarCube 2
