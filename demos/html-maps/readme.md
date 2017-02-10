@@ -2,7 +2,7 @@
 
 This demo shows how to use the HTML map tag to define clickable regions of an image inside of a twine. It also shows how to use the jquery.maphilight library to give the player visual feedback when they hover over areas of the image.
 
-See the [live demos](//mikewesthad.com/demos/html-maps/examples.html) in examples.html. You can import examples.html into Twine and open it up. The demos are heavily commented.
+See the [live demos](//mikewesthad.com/twine-resources/demos/html-maps/examples.html) in examples.html. You can import examples.html into Twine and open it up. The demos are heavily commented.
 
 ## HTML Maps and Areas
 
