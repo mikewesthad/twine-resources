@@ -15,3 +15,5 @@ Contents:
     - bleached - Thomas Michael Edwards's bleached styling for SugarCube.
     - textbox ([link](css/textbox/), [live demo](//mikewesthad.com/twine-resources/css/textbox/example.html)) - creating a textbox around passages.
     - backgrounds ([link](css/backgrounds/), [live demo](//mikewesthad.com/twine-resources/css/backgrounds/example.html)) - creating passages that have images and gradients as backgrounds.
+- hosting - tutorials on how to host your twines (or other web projects) online
+    - Free hosting with GitHub pages ([link](hosting/readme.md))
