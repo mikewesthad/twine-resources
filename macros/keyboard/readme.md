@@ -34,7 +34,7 @@ Note: if you hold a key down, the contents of the macro will fire multiple times
 
 ## `<<keyup>>`
 
-Same as `<<keydown>>`, except the contents of the macro are only run after a key (that has been pressed) is released.
+Same as `<<keydown>>`, except the contents of the macro are only run after a key (that has been pressed) is released. This is useful if you only one the contents to execute _ONCE_ per key press.
 
 ```
 ➡️ Button mashing
