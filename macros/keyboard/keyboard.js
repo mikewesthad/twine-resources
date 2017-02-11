@@ -98,7 +98,7 @@
 			var errors = [];
 			if (args.length < 1) errors.push("Missing key name parameter.");
 			if (!this.payload.length) {
-				errors.push("Missing closing /" + keyEventName);
+				errors.push("Missing closing /" + this.name);
 			}
 			if (errors.length) return this.error(errors.join(" "));
 
@@ -118,12 +118,11 @@
 				}
 			}
 			var keyPressContents = this.payload[0].contents;
-			var keyEventName = this.name; // keydown or keypress
+			var keyEventName = this.name; // keydown or keyup
 			var taskName = keyEventName + "-" + count++;
 			
-			// Event handler for keydown
+			// Event handler for keydown/keyup
 			var keyEventHandler = function (event) {
-				console.log("triggered", args);
 				if (isInArray(event.which, trackedKeyCodes)) {
 					new Wikifier(this.output, keyPressContents);
 				}
@@ -131,14 +130,13 @@
 
 			// Set up a task to run when the page has displayed
 			addOneTimeTask(postdisplay, taskName, function () {
+				// Bind the event handler
 				$(document.body).on(keyEventName, keyEventHandler);
-				console.log("binding", args);
 				
 				// Before the next passage is displayed, unbind this macro's
 				// event
 				addOneTimeTask(predisplay, taskName, function () {
 					$(document.body).off(keyEventName, keyEventHandler);
-					console.log("unbinding", args);
 				});
 			}.bind(this));
 		}
