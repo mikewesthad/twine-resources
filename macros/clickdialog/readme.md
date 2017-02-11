@@ -1,8 +1,12 @@
-# Macro Readme
+# <<clickdialog>> and <<clickdialogchoice>>
 
 See the [live demos](//mikewesthad.com/twine-resources/macros/clickdialog/example.html) in example.html to see the macros in action. You can import example.html into Twine and open it up. The demos are heavily commented.
 
-## clickdialog
+## Installation
+
+- Copy the contents of [clickdialog.js](//raw.githubusercontent.com/mikewesthad/twine-resources/master/macros/clickdialog/clickdialog.js) into story javascript.
+
+## <<clickdialog>>
 
 `<<clickdialog selector dialogTitle (dialogClasses)>>`, `<<whenclosed>>`, `<</clickdialog>>`
 
@@ -59,7 +63,7 @@ This macro can be used with HTML maps to create a point-and-click style game (se
 <</clickdialog>>
 ```
 
-## clickdialogchoice
+## <<clickdialogchoice>>
 
 `<<clickdialogchoice selector dialogTitle "$buttonResponse" (dialogClasses)>>`, `<<whenclosed>>`, `<</clickdialogchoice>>`
 
