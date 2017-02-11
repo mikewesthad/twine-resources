@@ -23,25 +23,25 @@ You can choose to put all your twines into one repository, or spread them across
 
 1. Start creating a new repository
 
-![Step 1](images/step-1-new-repo.png)
+    ![Step 1](images/step-1-new-repo.png)
 
 2. Initial settings for the repository
     - Again, pick a name that isn't a pain to type into a URL.
     - Check the box for "Initialize this repository with a README." Strangely enough, this is necessary for us to be able to edit the repo settings.
 
-![Step 2](images/step-2-readme.png)
+    ![Step 2](images/step-2-readme.png)
 
 3. We need to tell GitHub that our repo is a web project that should be hosted and accessible online. 
     - Go to Settings
     - Set the GitHub Pages source to "master branch".
 
-![Step 3](images/step-3-settings.png)
+    ![Step 3](images/step-3-settings.png)
 
-![Step 4](images/step-4-master-branch.png)
+    ![Step 4](images/step-4-master-branch.png)
 
 4. Setup done! You should see a note about what URL to use to find your project. Right now there won't be anything interesting there.
 
-![Step 5](images/step-5-url.png)
+    ![Step 5](images/step-5-url.png)
 
 ## Syncing with GitHub Desktop
 
