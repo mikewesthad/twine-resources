@@ -1,4 +1,4 @@
-# <<keydown>> and <<keyup>>
+# `<<keydown>>` and `<<keyup>>`
 
 See the [live demos](//mikewesthad.com/twine-resources/macros/keyboard/example.html) in example.html to see the macros in action. You can import example.html into Twine and open it up. The demos are heavily commented.
 
@@ -6,7 +6,7 @@ See the [live demos](//mikewesthad.com/twine-resources/macros/keyboard/example.h
 
 - Copy the contents of [keyboard.js](//raw.githubusercontent.com/mikewesthad/twine-resources/master/macros/keyboard/keyboard.js) into story javascript.
 
-## <<keydown>>
+## `<<keydown>>`
 
 `<<keydown keyName (keyName2) (keyName3) ...>>`, `<</keydown>>`
 
@@ -32,7 +32,7 @@ Note: if you hold a key down, the contents of the macro will fire multiple times
 <</keydown>>
 ```
 
-## <<keyup>>
+## `<<keyup>>`
 
 Same as `<<keydown>>`, except the contents of the macro are only run after a key (that has been pressed) is released.
 
