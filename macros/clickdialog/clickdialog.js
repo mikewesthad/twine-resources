@@ -73,7 +73,7 @@
 			if (args.length < 1) errors.push("Missing selector.");
 			if (args.length < 2) errors.push("Missing dialogTitle.");
 			if (args.length < 3) errors.push("Missing button response variable.");
-			if (errors.length) this.error(errors.join(" "));
+			if (errors.length) return this.error(errors.join(" "));
 
 			// Extract the arguments and contents of the macros
 			var dialogSelector = args[0];
