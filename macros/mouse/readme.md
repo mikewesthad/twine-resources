@@ -17,7 +17,7 @@ Like `<<elseif>>`, this macro can be chained to handle multiple mouse events on 
 **Arguments:**
 
 - **mouseEventName**: A string containing one of the possible mouse event names. They must be one of the following.
-	- "enter" (when the mouse enters an element for the first time)
+	- "enter" (when the mouse enters an element that it wasn't hovering over)
 	- "leave" (when a mouse leaves an element it was hovering over)
 	- "move" (when a mouse moves while over an element)
 	- "over" (similar to "enter", see [reference](http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_mouseenter_mouseover))
