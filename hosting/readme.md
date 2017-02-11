@@ -52,7 +52,7 @@ Whew, online repository set up. Now it's time to link that online repository wit
 
 ![Step 6](images/step-6-clone.png)
 
-3. Copy a twine project into the folder that you created on your local machine. If you don't have one handy, you can download [this example one](//mikewesthad.com/twine-resources/demos/animate.css/example.html). Tip: if you right click on the repository name in GitHub Desktop (left-hand sidebar), you'll see an option for "open in finder" or "open in explorer," which will take you directly to your folder.
+3. Copy a twine project into the folder that you created on your local machine. If you don't have one handy, you can download <a href="//mikewesthad.com/twine-resources/demos/animate.css/example.html" download>this example one</a>. Tip: if you right click on the repository name in GitHub Desktop (left-hand sidebar), you'll see an option for "open in finder" or "open in explorer," which will take you directly to your folder.
 4. Switch back to GitHub Desktop. We have made changes to the local copy of our repository and now it's time to "commit" those changes to let GitHub Desktop know about them. Committing is like taking a snapshot of the current state of our files. Click on your repository, click on the changes tab, check the box next to any files you want to save, add a message and then hit "commit to master".
 
 ![Step 7](images/step-7-commit.png)
