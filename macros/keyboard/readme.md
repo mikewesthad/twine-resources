@@ -42,10 +42,10 @@ Same as `<<keydown>>`, except the contents of the macro are only run after a key
 <span id="press-counter"><<print $presses>> presses</span>
 
 <<silently>>
-	<<keydown "space">>
+	<<keyup "space">>
 		<<set $presses = $presses + 1>>
 		<<replace "#press-counter">>$presses presses<</replace>>
-	<</keydown>>
+	<</keyup>>
 <</silently>>
 ```
 
