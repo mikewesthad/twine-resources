@@ -2,6 +2,8 @@
 
 See the [live demos](//mikewesthad.com/twine-resources/macros/mouse/example.html) in example.html to see the macros in action. You can import example.html into Twine and open it up. The demos are heavily commented.
 
+![Demo](mouse.gif)
+
 ## Installation
 
 - Copy the contents of [mouse.js](//raw.githubusercontent.com/mikewesthad/twine-resources/master/macros/mouse/mouse.js) into story javascript.

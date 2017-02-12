@@ -4,7 +4,7 @@ See the [live demo](//mikewesthad.com/twine-resources/css/backgrounds/example.ht
 
 You can use the `background` property in CSS to load tiled images or single images behind your passage. This demo uses the textbox syling from the [../textbox/](textbox) demo. This demo also takes advantage of passage tags to apply different backgrounds to different passages.
 
-![Screenshot](screenshot.gif)
+![Demo](backgrounds.gif)
 
 ## Resources
 

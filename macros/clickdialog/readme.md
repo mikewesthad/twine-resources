@@ -2,6 +2,8 @@
 
 See the [live demos](//mikewesthad.com/twine-resources/macros/clickdialog/example.html) in example.html to see the macros in action. You can import example.html into Twine and open it up. The demos are heavily commented.
 
+![Demo](dialog.gif)
+
 ## Installation
 
 - Copy the contents of [clickdialog.js](//raw.githubusercontent.com/mikewesthad/twine-resources/master/macros/clickdialog/clickdialog.js) into story javascript.

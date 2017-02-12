@@ -4,6 +4,8 @@ This demo shows how to use the HTML map tag to define clickable regions of an im
 
 See the [live demos](//mikewesthad.com/twine-resources/demos/html-maps/example.html) in example.html. You can import example.html into Twine and open it up. The demos are heavily commented.
 
+![Demo](map.gif)
+
 ## HTML Maps and Areas
 
 The HTML map tag allows you to define clickable regions within an image. While not often used in web developement, it is a lovely tool for creating Twines with visual navigation.
