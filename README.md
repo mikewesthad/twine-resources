@@ -13,6 +13,10 @@ Contents:
         
         <img src="demos/html-maps/map.gif" height="100px">
 
+    - embedding custom fonts ([link](demos/fonts/), [live demo](//mikewesthad.com/twine-resources/demos/fonts/example.html))
+        
+        <img src="demos/fonts/fonts.png" height="100px">
+
 - macros - custom macros for use with SugarCube 2
     - clickdialog and clickdialogchoice macros ([link](macros/clickdialog/), [live demo](//mikewesthad.com/twine-resources/macros/clickdialog/example.html)) - for creating dialog boxes.
 
