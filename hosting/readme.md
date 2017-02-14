@@ -79,3 +79,4 @@ Any time you make a change to an exisiting repository, you need to:
 - Tips about not using spaces in your URLs
 - Tips on organizing your files into subdirectories
 - Tips about linking to your hosted files from the Twine app
+- Enfocing HTTPS
