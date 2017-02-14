@@ -65,7 +65,7 @@ What if you don't want to be limited by Google's font selection? You can find a 
     }
     ```
 
-1. In a Twine, link to your kit's CSS file using the `@import` rule. Since I uploaded the ransom font kit to this repository, my `@import` would look like this:
+1. In a Twine, link to your kit's CSS file using the `@import` rule. This rule must come at the top of your stylesheet. Since I uploaded the ransom font kit to this repository, my `@import` would look like this:
 
     ```css
     @import url("https://www.mikewesthad.com/twine-resources/demos/fonts/ransom-webfont/stylesheet.css");
