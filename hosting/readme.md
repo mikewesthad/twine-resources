@@ -40,6 +40,7 @@ You can choose to put all your twines into one repository, or spread them across
     ![Step 4](images/step-4-master-branch.png)
 
 4. Setup done! You should see a note about what URL to use to find your project. Right now there won't be anything interesting there.
+    - This should be enabled by default, but make sure that "Enforce HTTPS" is checked. This makes your life easier when using the Twine browser app.
 
     ![Step 5](images/step-5-url.png)
 
@@ -79,4 +80,3 @@ Any time you make a change to an exisiting repository, you need to:
 - Tips about not using spaces in your URLs
 - Tips on organizing your files into subdirectories
 - Tips about linking to your hosted files from the Twine app
-- Enfocing HTTPS
